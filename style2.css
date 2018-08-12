@@ -1,0 +1,185 @@
+/*
+{
+	border: solid black 2px;
+}*/
+.w3-content w3-display-container
+{
+	text-align: center;
+}
+body
+{
+	margin: 0px;
+}
+.w3-content
+{
+	text-align: center;
+	margin: auto;
+}
+.main
+{
+	background-color: #4682B4;
+	height: 110px;
+}
+strong
+{
+	display: inline-block;
+	font-family: sans-serif;
+	font-size: 67px;
+	
+	color: #DDDDDD;
+	
+	letter-spacing: -4px;
+	margin: 15px;
+	margin-left: 20px;
+	margin-top: 7px;
+}
+.icon
+{
+	float: right;
+	margin-right: 9px;
+	text-decoration: none;
+	display: inline;
+	height: 99px;
+
+}
+img
+{
+	border-radius: 3px;
+	width: 300px;
+}
+.navigation
+{
+	margin-left: 22%;
+	height: 19px;
+	width: auto;
+	display: table;
+	background-color: #001f3f;
+	margin-top: -21px;
+
+}
+.navigation li
+{
+	text-decoration: none;
+	color: #DDDDDD;
+	display: inline;
+	font-size: 13.48px;
+	font-weight: 700;
+	margin: 2px;
+	border-color: blue;
+	font-family: sans-serif;
+}
+.main1
+{
+
+	border-radius: 4px;
+	background-color: #FFFFFF ;
+    box-shadow: 2.1px .5px 2.2px #A9A9A9 ;
+	margin: auto;
+	margin-top: 35px;
+	padding-bottom: 10px;
+	width: 350px;
+	border:1px solid #F5F5FF;
+}
+.main1 h1
+{
+	color: black;
+	margin-top: 13px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.2;
+    font-family: Arial,sans-serif;
+    margin-left: 15px;
+}
+.main1 p
+{
+	padding-top: -4px;
+	margin-left: 15px;
+	font-weight: 900;
+    font-size: 13px;
+    line-height: 19px;
+    color: #111;
+    font-family: Arial,sans-serif;
+}
+input
+{
+	padding-left: 4.2px;
+	border: 1px solid #778899;
+}
+textarea
+{
+	border-radius: 4px;
+	width: 313px;
+	height: 70px;
+}
+.box
+{
+	border-radius: 4px;
+	height: 28px;
+	width:313px;
+	border:1px solid #a6a6a6a;
+}
+.button
+{
+	font-weight: 400;
+	border-radius: 4px;
+	border-width: 1px;
+	height: 25px;
+	width: 317px;
+	background: #DAA520;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: black;
+}
+
+.main1 blockquote
+{
+	margin-left: 15px;
+	font-size: 14px;
+
+
+	text-decoration: none;
+	font-family: sans-serif;
+}
+.main1 blockquote a
+{
+	text-decoration: none;
+	font-family: sans-serif;
+	color:blue;
+}
+
+
+.footer
+{
+	display: table;
+	margin-top: 30px;
+	height: 70px;
+	margin: auto;
+}
+.last
+{
+	display: inline;
+	float: right;
+	margin-top: 20px;
+	margin: center;
+}
+.last a
+{
+	color: #800000;
+	text-decoration: none;
+	font-size: 14px;
+	padding-left: 15px;
+	font-family: Arial,sans-serif;
+
+}
+.foot
+{
+	margin-top: 27px;
+	height: 180px;
+	background: linear-gradient(to bottom,rgba(0,0,0,.14),rgba(0,0,0,.02) 3px,transparent);
+}
+.foot p
+{
+	margin-top: -15px;
+	font-size: 12px;
+	font-family: sans-serif;
+	text-align: center;
+}
