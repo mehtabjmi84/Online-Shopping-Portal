@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="CSS/style3.css"/>
+<meta charset="utf-8"/>
+<title>Ginger-Zone</title>
+<style>
+    .mySlides {margin-left:20%;text-align:center;display:none;height:110px;}
+    </style>
+</head>
+<body>
+<div class="main">
+
+<strong>Blue Ginger</strong>
+
+<li class="icon">
+	<div class="w3-content" style="max-width:400px">
+  <a href="#"><img class="mySlides" src="images/winprizes.png" style="width:80%"></a>
+  <a href="#"><img class="mySlides" src="images/fashion1.png" style="width:80%"></a>
+  <a href="#"><img class="mySlides" src="images/acessories.jpg" style="width:80%"></a>
+  <a href="#"><img class="mySlides" src="images/electronics1.jpg" style="width:80%"></a>
+   <a href="#"><img class="mySlides" src="images/novels.png" style="width:80%"></a>
+  <a href="#"><img class="mySlides" src="images/hal.jpg" style="width:80%"></a>
+  <a href="#"><img class="mySlides" src="images/hal2.jpg" style="width:80%"></a>
+</li>
+</div>
+<div class="navigation">
+	<li>HOME |</li>
+	<li>FASHION |</li>
+	<li>ELECTRONICS |</li>
+	<li>BOOKS |</li>
+	<li>ACCESSORIES |</li>
+	<li>HOME & LIVING</li>
+</div>
+<div class="main1">
+<h1>Login</h1>
+<form action="" method="post">
+
+
+
+
+<p>
+<label for="mobile">Mobile</label><br>
+<input class="box" type="text" id="mobile" placeholder="Mobile Number" maxlength="10" required/>
+</p>
+
+
+
+
+
+
+
+<p>
+<label for="password">Password</label><br>
+<input class="box" type="password" id="password" required />
+</p>
+
+
+
+
+
+<p>
+<input class="button" type="submit" value="Login" />
+</p>
+
+
+<input type="checkbox" name="gender" id="male"/><label for="male">keep me signed in.</label>
+
+<blockquote>
+New to Blue Ginger?
+</blockquote>
+
+<p class="button2">
+<a href="signup.html">Create your Blue Ginger account.</a>
+
+</p>
+
+
+</form>
+</div>
+<div class="foot">
+<div class="footer">
+<li class="last">
+<a href="#">
+ Conditions of Use 
+ </a>
+</li>
+<li class="last">
+<a href="#">
+ Privacy Policy
+ </a>
+</li>
+<li class="last">
+<a href="#">
+ Help
+ </a>
+</li>
+</div>
+<p>Copyright © 2017, Mehtab Infotech Private Limited. All Rights Reserved</p>
+</div>
+
+
+</div>
+
+<script>
+var slideIndex = 1;
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2100);    
+}
+
+
+ </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
